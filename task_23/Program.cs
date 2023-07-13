@@ -4,7 +4,7 @@
 // 5 -> 1, 8, 27, 64, 125
 
 Console.Clear();
-Console.WriteLine("Введите число: ");
+Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 for (int i = 1; i <= n; i++)
